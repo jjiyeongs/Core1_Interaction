@@ -41,3 +41,27 @@
 </body>
 
 </html>
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  padding: 1.5rem;
+}
+
+
+main {
+  width: 80vw;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows:min-content;
+  grid-gap:2rem;
+}
+
+.left-sidebar {
+  grid-column: 1 / 2;
+}
+
+.main-content {
+  grid-column: 2 / 3;
